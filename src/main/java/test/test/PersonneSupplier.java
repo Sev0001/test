@@ -5,4 +5,8 @@ public interface PersonneSupplier {
 	//Personne creerInstance(String nom, String prenom);
 
 	Integer age();
+	
+	static void test() {
+		
+	}
 }
