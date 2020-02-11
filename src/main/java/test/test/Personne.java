@@ -6,6 +6,8 @@ public class Personne implements PersonneSupplier{
 	public String prenom;
 	public Integer anneeNaissance;
 	
+	public Personne() {}
+	
 	
 	public Personne(String nom, String prenom, Integer anneeNaissance) {
 		super();
