@@ -7,6 +7,6 @@ public interface PersonneSupplier {
 	Integer age(Integer annee);
 	
 	static void test() {
-		System.out.println("test2");
+		System.out.println("test3");
 	}
 }
