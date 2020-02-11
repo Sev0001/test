@@ -24,7 +24,7 @@ public class Personne implements PersonneSupplier{
 
 
 	@Override
-	public Integer age() {
+	public Integer age(Integer annee) {
 		// TODO Auto-generated method stub
 		return 2020-this.anneeNaissance;
 	}
