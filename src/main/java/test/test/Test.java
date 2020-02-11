@@ -75,5 +75,11 @@ class Test
         
         afficher.sayMessage(m.getKilometrage()+"");
         
+        Moto m2 = new Moto();
+        
+        ope.demarrer(20000, m2);
+        
+        afficher.sayMessage(m2.getKilometrage()+"");
+        
     } 
 }
